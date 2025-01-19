@@ -30,7 +30,7 @@ Just install all components.
 * Copy `SECDRV.sys` in it. Match your operating system bitness.  
   If it's an old version, replace it with this one downloadable [here](https://github.com/ericwj/PsSecDrv/raw/master/tools/SECDRV/SECDRV.sys). Its from September 2006.
   ```
-  # Using curl (Windows 10 has it inbox)
+  # Using curl (Windows 11 has it inbox)
   curl.exe -OL https://github.com/ericwj/PsSecDrv/raw/master/tools/SECDRV/SECDRV.sys
   # Using PowerShell or PowerShell Core
   iwr -Uri https://github.com/ericwj/PsSecDrv/raw/master/tools/SECDRV/SECDRV.sys -OutFile SECDRV.sys
